@@ -165,3 +165,11 @@ fun DiscoveryList() {
     }
   }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun DiscoveryListPreview() {
+  WeComposeTheme {
+    DiscoveryList()
+  }
+}
