@@ -31,6 +31,7 @@ import com.rengwuxian.wecompose.ui.theme.WeComposeTheme
 
 @Composable
 fun ChatList(chats: List<Chat>, onChatClick: (Chat) -> Unit) {
+  //test2
   Column(Modifier
     .background(WeComposeTheme.colors.background)
     .fillMaxSize()) {
